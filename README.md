@@ -1,8 +1,8 @@
 # DevelopersTest
 
 Dear Reviewer,
-This application was a simple but good example of how to treat a collection of object as a third party data consumption.
-It could be more modular and also I did spend more time to add exeption handeling as I was thinking dealing with data services has been 
+This application was a simple but good example of how to treat a collection of objects as a third party provided data.
+It could be more modular and also I did not spend more time to add exception handling as I was thinking the way I would deal with data services has been 
 a main purpose of this test.
 Regards,
 Ryan
