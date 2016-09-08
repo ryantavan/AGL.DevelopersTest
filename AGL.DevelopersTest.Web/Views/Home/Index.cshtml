@@ -1,0 +1,40 @@
+﻿@model List<AGL.DevelopersTest.Models.Pet>
+
+@{
+    ViewBag.Title = "Pets in Alphabetical Order";
+}
+
+<style>
+    tr > td {
+        padding:8px;
+        background-color:lightgray;
+                border:solid;
+        border-width:1px;
+        border-color:gray;
+    }
+    table {
+        border:solid;
+        border-width:1px;
+        border-color:gray;
+    }
+
+</style>
+
+<h2>Pets in Alphabetical Order</h2>
+
+<table>
+    <tr>
+        <th>Gender</th>
+        <th>Name</th>
+    </tr>
+    @foreach (AGL.DevelopersTest.Models.Pet pet in Model)
+    {
+        <tr>
+            <td>@pet.Owner.gender.ToString()</td>
+            <td>@pet.name</td>
+
+        </tr>
+    }
+
+</table>
+
